@@ -111,13 +111,13 @@ const PuzzleGrid = () => {
             <div className="puzzle-grid-wrapper">
                 <div className="grid-header">
                     <label>8-Puzzle</label>
-                    <button className="btn-shuffle" onClick={newGame}>
+                    <div className="btn-shuffle" onClick={newGame}>
                         <ShuffleIcon />
                         <span>Shuffle</span>
-                    </button>
-                    <button className="lbl-moves" >
+                    </div>
+                    <div className="lbl-moves" >
                         <span>Moves: {moves}</span>
-                    </button>
+                    </div>
                 </div>
                 <div className="grid">
                     {getPuzzleTiles()}

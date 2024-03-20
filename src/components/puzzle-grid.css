@@ -15,7 +15,7 @@
     padding: 0;
 }
 
-.puzzle-grid-wrapper .grid-header button.btn-shuffle {
+.puzzle-grid-wrapper .grid-header .btn-shuffle {
     background: rgba(255, 196, 216, 0.7);
     color: rgba(215, 42, 110, 1);
     border: none;
@@ -24,7 +24,6 @@
     padding: 0px 12px 0px 12px;
     gap: 10px;
     border-radius: 8px;
-    opacity: 0px;
     font-family: DM Sans;
     font-size: 13px;
     font-weight: 500;
@@ -36,7 +35,7 @@
     cursor: pointer;
 }
 
-.puzzle-grid-wrapper .grid-header button.lbl-moves {
+.puzzle-grid-wrapper .grid-header .lbl-moves {
     background: white;
     border: 1px solid rgba(242, 233, 233, 1);
     width: 89px;
@@ -44,7 +43,6 @@
     padding: 0px 12px 0px 12px;
     gap: 10px;
     border-radius: 8px;
-    opacity: 0px;
     color: rgba(71, 44, 53, 1);
     margin-left: 8px;
     font-family: DM Sans;
