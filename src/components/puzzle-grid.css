@@ -1,0 +1,189 @@
+.puzzle-grid-wrapper {}
+
+.puzzle-grid-wrapper .grid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.puzzle-grid-wrapper .grid-header label {
+    font-size: 42px;
+    font-weight: 700;
+    color: #472C35;
+    flex: 1;
+    padding: 0;
+}
+
+.puzzle-grid-wrapper .grid-header button.btn-shuffle {
+    background: rgba(255, 196, 216, 0.7);
+    color: rgba(215, 42, 110, 1);
+    border: none;
+    width: 89px;
+    height: 32px;
+    padding: 0px 12px 0px 12px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 31.85px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.puzzle-grid-wrapper .grid-header button.lbl-moves {
+    background: white;
+    border: 1px solid rgba(242, 233, 233, 1);
+    width: 89px;
+    height: 32px;
+    padding: 0px 12px 0px 12px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    color: rgba(71, 44, 53, 1);
+    margin-left: 8px;
+    font-family: DM Sans;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 31.85px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.puzzle-grid-wrapper .grid {
+    background-color: white;
+    width: 511px;
+    height: 511px;
+    border-radius: 8px;
+    border: 1px solid rgba(242, 233, 233, 0.7);
+    padding: 4px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.puzzle-grid-wrapper .grid .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #472C35;
+    border: 1px solid rgba(242, 233, 233, 0.7);
+    cursor: pointer;
+    background-color: lightblue;
+    border-radius: 5px;
+    width: 165px;
+    height: 165px;
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.puzzle-grid-wrapper .grid .top-left {
+    grid-area: top-left;
+}
+
+.puzzle-grid-wrapper .grid .top {
+    grid-area: top;
+}
+
+.puzzle-grid-wrapper .grid .top-right {
+    grid-area: top-right;
+}
+
+.puzzle-grid-wrapper .grid .left {
+    grid-area: left;
+}
+
+.puzzle-grid-wrapper .grid .center {
+    grid-area: center;
+}
+
+.puzzle-grid-wrapper .grid .right {
+    grid-area: right;
+}
+
+.puzzle-grid-wrapper .grid .bottom-left {
+    grid-area: bottom-left;
+}
+
+.puzzle-grid-wrapper .grid .bottom {
+    grid-area: bottom;
+}
+
+.puzzle-grid-wrapper .grid .bottom-right {
+    grid-area: bottom-right;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(204, 204, 204, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal .modal-content {
+    background-color: white;
+    width: 332px;
+    height: 351px;
+    padding: 56px 56px 44px 56px;
+    border-radius: 30px;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.modal .modal-content .close-modal {
+    position: absolute;
+    top: 16px;
+    left: 286px;
+    cursor: pointer;
+    font-family: SF Pro;
+    font-size: 20px;
+    font-weight: 590;
+    line-height: 21px;
+    text-align: center;
+
+}
+
+.modal .modal-content label.title {
+    font-family: DM Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(71, 44, 53, 1);
+    display: block;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.modal .modal-content span.message {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgba(149, 130, 137, 1);
+    margin-top: 8px;
+    display: block;
+}
