@@ -1,5 +1,5 @@
 import React from "react";
-import photo from '../assets/photo.png';
+import photo from '../assets/image3.png';
 import { GRID_GAP, GRID_SIZE, TILE_SIZE, Tile } from "./PuzzleGrid";
 
 type TileProps = {
