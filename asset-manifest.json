@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mixtiles-web/static/css/main.d9434a25.css",
-    "main.js": "/mixtiles-web/static/js/main.c92aa4f5.js",
+    "main.css": "/mixtiles-web/static/css/main.3e7176c2.css",
+    "main.js": "/mixtiles-web/static/js/main.d464a13b.js",
     "static/media/image3.png": "/mixtiles-web/static/media/image3.37941bc6a9a7988192cd.png",
     "index.html": "/mixtiles-web/index.html",
-    "main.d9434a25.css.map": "/mixtiles-web/static/css/main.d9434a25.css.map",
-    "main.c92aa4f5.js.map": "/mixtiles-web/static/js/main.c92aa4f5.js.map"
+    "main.3e7176c2.css.map": "/mixtiles-web/static/css/main.3e7176c2.css.map",
+    "main.d464a13b.js.map": "/mixtiles-web/static/js/main.d464a13b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9434a25.css",
-    "static/js/main.c92aa4f5.js"
+    "static/css/main.3e7176c2.css",
+    "static/js/main.d464a13b.js"
   ]
 }
